@@ -1,0 +1,73 @@
+body {
+  background-color: #e2dfd6;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+
+form {
+  margin: 10px 0;
+  text-align: center;
+}
+
+form input {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 18px;
+  width: 200px;
+}
+
+form button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+li div.what {
+  display: inline-block; /*해당 라인으로(옆으로)*/
+  margin-left: 6px;
+}
+
+li.finished {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+ul#lst_panel li {
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #8d8d8d;
+  background-color: #fff;
+  display: flex;
+}
+
+ul#lst_panel li button {
+  margin-left: 5px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+ul#lst_panel li button:hover {
+  background-color: #ccc;
+}
+
+.what {
+  font-size: 16px;
+  /* font-weight: bold; */
+}
